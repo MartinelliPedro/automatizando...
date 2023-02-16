@@ -18,13 +18,13 @@ def makeCommits (days):
         # days * makeCommits(days - 1)
 
 cont = 0
-maxNumero = 3500
+maxNumero = 500
 while True:
     # makeCommits(1)
-    makeCommits(3500 - maxNumero)
+    makeCommits(500 - maxNumero)
     cont += 1
     maxNumero -= 1
-    if cont == 3500:
+    if cont == 500:
         break
         
 
